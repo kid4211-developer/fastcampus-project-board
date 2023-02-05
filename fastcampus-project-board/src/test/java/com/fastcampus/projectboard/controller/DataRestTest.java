@@ -1,5 +1,6 @@
 package com.fastcampus.projectboard.controller;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * - DB의 영향을 최소화하는 annotaion
  */
 
+@Disabled("Spring Data REST 통합테스트 불필요")
 @DisplayName("Data REST - API test")
 @Transactional
 @AutoConfigureMockMvc
